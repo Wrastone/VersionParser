@@ -1,0 +1,8 @@
+The version of panbetapi is 3.0.859
+The version of epservice is 3.0.859
+The version of sportsbook is 1.51
+The version of punterauth is 1.56.1#742
+The version of client-gateway is 1.35
+The version of gi-dictao-session is 2.1.1
+The version of punter-message is 3.9.3
+The version of panbet-config-service is 2.1.0-1

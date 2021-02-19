@@ -1,0 +1,344 @@
+[
+  {
+    "service_name": "panbetapi",
+    "url": "http://panbetapi-dk.ams.local:10680/panbetapi/status/json",
+    "status_page": "{\"serverVersion\":\"3.0.859\",\"compatible\":\"true\",\"apiVersion\":\"3.0.859\"}",
+    "version": "apiVersion"
+  },
+  {
+    "service_name": "epservice",
+    "url": "http://epservice-dk.ams.local:8090/epservice/status",
+    "status_page": "<!DOCTYPE html>\n<html>\n<head><title>Epservice status</title></head><body><b>Epservice status</b><br><pre>Implementation-Title: Event Presentation Service\nX-Compile-Source-JDK: 11\nBuilt-Date: 2021-02-16 18:45:03\nSpecificationVersion: 1.9-SNAPSHOT\nBuild-Version: 1.9-SNAPSHOT#859\nImplementation-Version: 3.0.859\nManifest-Version: 1.0\nCreated-By: Maven Archiver 3.4.0\nBuild-Jdk-Spec: 11\nX-Compile-Target-JDK: 11\n</pre><br><b>Cluster status:</b><br><pre>Member 70b02cc4-6649-44d8-a67b-1aeee11663d8 [address: epservice2-dk.ams.local/172.24.42.167:5407, local: true, master: true]\nMember 5b016081-0cce-4d04-8269-803c55b5bc92 [address: epservice1-dk.ams.local/172.24.42.166:5407, local: false, master: false]\n</pre><br><b>Changeserv sessionId: </b> cd-epservice-dk (connected)<br><br><table border=\"1\"><caption><b>Cache refresh strategy table</b></caption><tr><td><b>Cache name</b></td><td style=\"text-align: center;\"><b>REMOVE</b></td><td style=\"text-align: center;\"><b>RELOAD</b></td><td style=\"text-align: center;\"><b>CLEAR_ALL</b></td></tr><tr><td>additionalEventsTemplateConfig</td><td style=\"text-align: center;\">V</td><td style=\"text-align: center;\">O</td><td style=\"text-align: center;\">O</td></tr><tr><td>betTypeSettings</td><td style=\"text-align: center;\">V</td><td style=\"text-align: center;\">O</td><td style=\"text-align: center;\">O</td></tr><tr><td>betaborted</td><td style=\"text-align: center;\">V</td><td style=\"text-align: center;\">O</td><td style=\"text-align: center;\">O</td></tr><tr><td>betplacingsummary</td><td style=\"text-align: center;\">V</td><td style=\"text-align: center;\">O</td><td style=\"text-align: center;\">O</td></tr><tr><td>blurb</td><td style=\"text-align: center;\">V</td><td style=\"text-align: center;\">O</td><td style=\"text-align: center;\">O</td></tr><tr><td>blurbTemplate</td><td style=\"text-align: center;\">V</td><td style=\"text-align: center;\">O</td><td style=\"text-align: center;\">O</td></tr><tr><td>categorySettingsTreeIds</td><td style=\"text-align: center;\">V</td><td style=\"text-align: center;\">O</td><td style=\"text-align: center;\">O</td></tr><tr><td>categorysettings</td><td style=\"text-align: center;\">V</td><td style=\"text-align: center;\">O</td><td style=\"text-align: center;\">O</td></tr><tr><td>country</td><td style=\"text-align: center;\">X</td><td style=\"text-align: center;\">X</td><td style=\"text-align: center;\">V</td></tr><tr><td>currency</td><td style=\"text-align: center;\">V</td><td style=\"text-align: center;\">X</td><td style=\"text-align: center;\">X</td></tr><tr><td>currencyrate</td><td style=\"text-align: center;\">V</td><td style=\"text-align: center;\">X</td><td style=\"text-align: center;\">X</td></tr><tr><td>dictionary</td><td style=\"text-align: center;\">V</td><td style=\"text-align: center;\">O</td><td style=\"text-align: center;\">O</td></tr><tr><td>event</td><td style=\"text-align: center;\">V</td><td style=\"text-align: center;\">O</td><td style=\"text-align: center;\">O</td></tr><tr><td>eventInningTime</td><td style=\"text-align: center;\">V</td><td style=\"text-align: center;\">O</td><td style=\"text-align: center;\">O</td></tr><tr><td>eventPromotion</td><td style=\"text-align: center;\">V</td><td style=\"text-align: center;\">O</td><td style=\"text-align: center;\">O</td></tr><tr><td>eventcoefficient</td><td style=\"text-align: center;\">V</td><td style=\"text-align: center;\">O</td><td style=\"text-align: center;\">O</td></tr><tr><td>eventcoefficients</td><td style=\"text-align: center;\">V</td><td style=\"text-align: center;\">O</td><td style=\"text-align: center;\">O</td></tr><tr><td>eventresponsible</td><td style=\"text-align: center;\">V</td><td style=\"text-align: center;\">O</td><td style=\"text-align: center;\">O</td></tr><tr><td>eventsimple</td><td style=\"text-align: center;\">V</td><td style=\"text-align: center;\">O</td><td style=\"text-align: center;\">O</td></tr><tr><td>eventtranslation</td><td style=\"text-align: center;\">V</td><td style=\"text-align: center;\">O</td><td style=\"text-align: center;\">O</td></tr><tr><td>eventwihoutcoefficients</td><td style=\"text-align: center;\">V</td><td style=\"text-align: center;\">O</td><td style=\"text-align: center;\">O</td></tr><tr><td>excludedJurisdictionFeds</td><td style=\"text-align: center;\">V</td><td style=\"text-align: center;\">O</td><td style=\"text-align: center;\">O</td></tr><tr><td>excludedJurisdictionTree</td><td style=\"text-align: center;\">X</td><td style=\"text-align: center;\">X</td><td style=\"text-align: center;\">V</td></tr><tr><td>externalpunter</td><td style=\"text-align: center;\">V</td><td style=\"text-align: center;\">O</td><td style=\"text-align: center;\">O</td></tr><tr><td>generatedeventtranslation</td><td style=\"text-align: center;\">V</td><td style=\"text-align: center;\">O</td><td style=\"text-align: center;\">O</td></tr><tr><td>italyEventInfo</td><td style=\"text-align: center;\">V</td><td style=\"text-align: center;\">O</td><td style=\"text-align: center;\">O</td></tr><tr><td>italySportInfo</td><td style=\"text-align: center;\">V</td><td style=\"text-align: center;\">O</td><td style=\"text-align: center;\">O</td></tr><tr><td>jurisdictionsetting</td><td style=\"text-align: center;\">V</td><td style=\"text-align: center;\">O</td><td style=\"text-align: center;\">O</td></tr><tr><td>leaneventlocalization.event</td><td style=\"text-align: center;\">V</td><td style=\"text-align: center;\">O</td><td style=\"text-align: center;\">O</td></tr><tr><td>leaneventlocalization.eventTranslation</td><td style=\"text-align: center;\">V</td><td style=\"text-align: center;\">O</td><td style=\"text-align: center;\">O</td></tr><tr><td>limitsConfigProvider</td><td style=\"text-align: center;\">X</td><td style=\"text-align: center;\">X</td><td style=\"text-align: center;\">V</td></tr><tr><td>markettranslation</td><td style=\"text-align: center;\">V</td><td style=\"text-align: center;\">O</td><td style=\"text-align: center;\">O</td></tr><tr><td>member</td><td style=\"text-align: center;\">V</td><td style=\"text-align: center;\">O</td><td style=\"text-align: center;\">O</td></tr><tr><td>punter</td><td style=\"text-align: center;\">V</td><td style=\"text-align: center;\">O</td><td style=\"text-align: center;\">O</td></tr><tr><td>puntercomments</td><td style=\"text-align: center;\">V</td><td style=\"text-align: center;\">O</td><td style=\"text-align: center;\">O</td></tr><tr><td>settings</td><td style=\"text-align: center;\">V</td><td style=\"text-align: center;\">O</td><td style=\"text-align: center;\">O</td></tr><tr><td>sport</td><td style=\"text-align: center;\">V</td><td style=\"text-align: center;\">O</td><td style=\"text-align: center;\">O</td></tr><tr><td>statmarketgroup</td><td style=\"text-align: center;\">V</td><td style=\"text-align: center;\">O</td><td style=\"text-align: center;\">O</td></tr><tr><td>translationcategory</td><td style=\"text-align: center;\">V</td><td style=\"text-align: center;\">O</td><td style=\"text-align: center;\">O</td></tr><tr><td>treeitem</td><td style=\"text-align: center;\">V</td><td style=\"text-align: center;\">O</td><td style=\"text-align: center;\">O</td></tr><tr><td>userlogin</td><td style=\"text-align: center;\">V</td><td style=\"text-align: center;\">O</td><td style=\"text-align: center;\">O</td></tr></table></body>\n</html>",
+    "version": "Implementation-Version"
+  },
+  {
+    "service_name": "punterservice",
+    "url": "http://punterservice-dk.ams.local:14780/punterservice/status/haproxy",
+    "status_page": "",
+    "version": null
+  },
+  {
+    "service_name": "uniweb-punter-service",
+    "url": "http://uniweb-punter-service-dk.ams.local:8080/status",
+    "status_page": "{\n  \"name\" : \"uniweb-punter-service\",\n  \"version\" : \"1.30.1\",\n  \"status\" : \"OK\",\n  \"build\" : {\n    \"buildTime\" : \"@build.time@\",\n    \"branchName\" : \"@branchName@\",\n    \"buildNumber\" : \"@buildNumber@\"\n  },\n  \"startTime\" : \"2021.02.09 01:08:19.803\",\n  \"uptime\" : 898730854\n}",
+    "version": null
+  },
+  {
+    "service_name": "uniweb-line-service",
+    "url": "http://uniweb-line-service-dk.ams.local:8080/status",
+    "status_page": "{\n  \"name\" : \"uniweb-line-service\",\n  \"version\" : \"2.8.1\",\n  \"status\" : \"OK\",\n  \"build\" : {\n    \"buildTime\" : \"@build.time@\",\n    \"branchName\" : \"@branchName@\",\n    \"buildNumber\" : \"@buildNumber@\"\n  },\n  \"startTime\" : \"2021.01.13 19:05:23.046\",\n  \"uptime\" : 3166908069\n}",
+    "version": null
+  },
+  {
+    "service_name": "liabilityservice",
+    "url": "http://liabilityservice-dk.ams.local:8080/clusterstatus",
+    "status_page": "200 READY",
+    "version": null
+  },
+  {
+    "service_name": "sportsbook",
+    "url": "http://sportsbook-dk.ams.local:8080/sportsbook/status",
+    "status_page": "{\"status\":\"UP\",\"components\":{\"ping\":{\"status\":\"UP\"},\"sportsbook\":{\"status\":\"UP\",\"details\":{\"Start time:\":\"2021.02.04 01:02:37.325\",\"Up time:\":1331075089,\"Build number:\":\"stub-bamboo-buildNumber\",\"Implementation version:\":\"1.51\"}}}}",
+    "version": "components/sportsbook/details/Implementation version:"
+  },
+  {
+    "service_name": "panbetapi-grpc",
+    "url": "http://panbetapi-grpc-dk.ams.local:8080/status",
+    "status_page": "{\n  \"name\" : \"@name@\",\n  \"version\" : \"@project.version@\",\n  \"status\" : \"OK\",\n  \"build\" : {\n    \"buildTime\" : \"@build.time@\",\n    \"branchName\" : \"@branchName@\",\n    \"buildNumber\" : \"@buildNumber@\"\n  },\n  \"startTime\" : \"2021.02.09 23:14:46.950\",\n  \"uptime\" : 819146042\n}",
+    "version": null
+  },
+  {
+    "service_name": "punterauth",
+    "url": "http://punterauth-dk.ams.local:8080/punterauth/status",
+    "status_page": "<!DOCTYPE html>\n<html>\n<head><title>Service status</title></head><body><b>Service status</b><br><pre>Implementation-Title: PanbetPunterAuthService\nX-Compile-Source-JDK: 11\nBuilt-Date: 2021-02-12 09:13\nSpecification-Version: 1.56\nBuild-Version: 1.56.1#742\nImplementation-Version: 1.56.1#742\nManifest-Version: 1.0\nCreated-By: Maven Archiver 3.4.0\nBuild-Jdk-Spec: 11\nX-Compile-Target-JDK: 11\n</pre></body>\n</html>",
+    "version": "Implementation-Version"
+  },
+  {
+    "service_name": "sportsbook-push-server",
+    "url": "http://sportsbook-push-server-dk.ams.local:8080/status",
+    "status_page": "{\n  \"name\" : \"sportsbook-push-server\",\n  \"version\" : \"4.19.1\",\n  \"status\" : \"OK\",\n  \"build\" : {\n    \"buildTime\" : \"2020-12-03 02:58:47\",\n    \"branchName\" : \"master\",\n    \"buildNumber\" : \"9379f418\"\n  },\n  \"startTime\" : \"2020.12.02 20:12:57.536\",\n  \"uptime\" : 6791656465,\n  \"subscribers\" : 0,\n  \"wsRequests\" : 144,\n  \"wsRequestsLastMinute\" : 0,\n  \"treeChanges\" : {\n    \"coeffChanges\" : 6562,\n    \"scoreChanges\" : 2229,\n    \"marketsChanges\" : 687,\n    \"fullChanges\" : 0,\n    \"totalTreeChanges\" : 9480,\n    \"totalTreeChangesLastMinute\" : 0\n  },\n  \"punterChanges\" : {\n    \"userChanges\" : 0,\n    \"userChangesLastMinute\" : 0,\n    \"usePunterCache\" : false,\n    \"cacheHits\" : 0,\n    \"cacheMisses\" : 0,\n    \"cacheHitsLastMinute\" : 0,\n    \"cacheMissesLastMinute\" : 0\n  },\n  \"useEpoll\" : true,\n  \"useAsyncAccessLog\" : false\n}",
+    "version": null
+  },
+  {
+    "service_name": "sportsbook-mobile-gateway",
+    "url": "http://sportsbook-mobile-gateway-dk.ams.local:8080/sportsbook-mobile-gateway/status",
+    "status_page": "{\"name\":\"sportsbook-mobile-gateway\",\"version\":\"2.18.2\",\"status\":\"OK\",\"role\":\"MASTER\",\"build\":{\"buildTime\":\"@build.time@\",\"branchName\":\"@branchName@\",\"buildNumber\":\"stub-bamboo-buildNumber\"},\"startTime\":\"2021.01.13 19:07:05.991\",\"uptime\":3166808456,\"componentStatuses\":[{\"name\":\"popSearchKey\",\"status\":\"OK\",\"lastSuccess\":\"2021.02.19 10:46:22.788\"},{\"name\":\"popChangesNotificationPublisher\",\"status\":\"OK\",\"lastSuccess\":\"2021.02.19 10:47:14.350\"},{\"name\":\"generalLocaleResolver\",\"status\":\"OK\",\"lastSuccess\":\"2021.02.18 19:07:17.837\"},{\"name\":\"Grpc Uls client loader\",\"status\":\"OK\",\"lastSuccess\":\"2021.02.19 10:47:14.447\"},{\"name\":\"zeroMarginComputer\",\"status\":\"OK\",\"lastSuccess\":\"2021.02.19 10:47:03.734\"},{\"name\":\"zeroMarginValidator\",\"status\":\"OK\",\"lastSuccess\":\"2021.02.19 10:47:10.116\"},{\"name\":\"SportStat routine\",\"status\":\"OK\",\"lastSuccess\":\"2021.02.19 10:45:42.108\",\"role\":\"MASTER\"},{\"name\":\"CurStat routine\",\"status\":\"OK\",\"lastSuccess\":\"2021.02.19 10:46:14.654\",\"role\":\"MASTER\"},{\"name\":\"upcomingsBuilding\",\"status\":\"OK\",\"lastSuccess\":\"2021.02.19 10:43:09.599\"},{\"name\":\"FeedCompilerStat routine\",\"status\":\"OK\",\"lastSuccess\":\"2021.02.19 10:45:34.993\",\"role\":\"MASTER\"},{\"name\":\"supportedLocales\",\"status\":\"OK\",\"lastSuccess\":\"2021.02.19 10:38:44.896\"},{\"name\":\"upcomingsClearing\",\"status\":\"OK\",\"lastSuccess\":\"2021.02.19 10:47:10.033\"},{\"name\":\"redis health checker\",\"status\":\"OK\",\"lastSuccess\":\"2021.02.19 10:47:03.314\"},{\"name\":\"localizeMessageSource\",\"status\":\"OK\",\"lastSuccess\":\"2021.02.17 19:07:23.002\"}]}",
+    "version": null
+  },
+  {
+    "service_name": "client-gateway",
+    "url": "http://client-gateway.dk.ams.local:8080/status",
+    "status_page": "{\n  \"status\" : \"OK\",\n  \"name\" : \"client-gateway\",\n  \"version\" : \"1.35\",\n  \"build\" : {\n    \"buildTime\" : \"2021-02-09 20:28:37\",\n    \"branchName\" : \"master\",\n    \"buildNumber\" : \"090a7162\"\n  },\n  \"startTime\" : \"2021.02.10 01:12:06.622\",\n  \"uptime\" : 812108415,\n  \"fingerprintLinkStatus\" : {\n    \"OLD\" : {\n      \"lastMiniteSuccessful\" : 0,\n      \"lastMinuteFailed\" : 0,\n      \"totalSuccessful\" : 0,\n      \"totalFailed\" : 0\n    },\n    \"WEB\" : {\n      \"lastMiniteSuccessful\" : 0,\n      \"lastMinuteFailed\" : 0,\n      \"totalSuccessful\" : 0,\n      \"totalFailed\" : 0\n    },\n    \"ZERKALO\" : {\n      \"lastMiniteSuccessful\" : 0,\n      \"lastMinuteFailed\" : 0,\n      \"totalSuccessful\" : 0,\n      \"totalFailed\" : 0\n    },\n    \"MOBILE_WEB\" : {\n      \"lastMiniteSuccessful\" : 0,\n      \"lastMinuteFailed\" : 0,\n      \"totalSuccessful\" : 0,\n      \"totalFailed\" : 0\n    },\n    \"ANDROID\" : {\n      \"lastMiniteSuccessful\" : 0,\n      \"lastMinuteFailed\" : 0,\n      \"totalSuccessful\" : 0,\n      \"totalFailed\" : 0\n    },\n    \"IOS\" : {\n      \"lastMiniteSuccessful\" : 0,\n      \"lastMinuteFailed\" : 0,\n      \"totalSuccessful\" : 0,\n      \"totalFailed\" : 0\n    }\n  }\n}",
+    "version": "version"
+  },
+  {
+    "service_name": "billing-service",
+    "url": "http://billing-service.dk.ams.local:8080/billing-service/status",
+    "status_page": "{\n  \"startTime\" : \"2020-09-21T14:08:20.301949Z\",\n  \"buildInfo\" : {\n    \"Bamboo-Build-Number\" : \"\",\n    \"Implementation-Version\" : \"2.0.7\",\n    \"Bamboo-Build-Url\" : \"\",\n    \"Bamboo-Build-Timestamp\" : \"\",\n    \"Built-By\" : \"bamboo\",\n    \"Build-Jdk\" : \"1.8.0_144\"\n  },\n  \"versions\" : {\n    \"payment-starters\" : \"2.0.0\",\n    \"spring-boot\" : \"2.1.5.RELEASE\"\n  },\n  \"cluster\" : [ \"billing-service2-dk.ams.local\", \"billing-service3-dk.ams.local\", \"billing-service1-dk.ams.local\" ]\n}",
+    "version": null
+  },
+  {
+    "service_name": "bonus-cms-app",
+    "url": "http://bonus-cms-app-dk.ams.local:8080/bonus-cms-app/status",
+    "status_page": "Archiver-Version: Plexus Archiver<br/>\nImplementation-Title: bonus-cms-app<br/>\nbuild-timestamp: 2021-01-26T16:41:00Z<br/>\nImplementation-Version: 2.14.0#443<br/>\nManifest-Version: 1.0<br/>\nCreated-By: Apache Maven 3.6.0<br/>\nImplementation-Vendor-Id: com.panbet.bonus<br/>\nBuild-Jdk: 11.0.6-panbet<br/>\nStart-Class: com.panbet.bonus.cms.app.BonusCmsApp<br/>\ngit-commit: 24db863<br/>\ngit-branch: release-2.14.0<br/>\nSpring-Boot-Version: 2.1.7.RELEASE<br/>\nSpring-Boot-Lib: WEB-INF/lib/<br/>\nBuilt-By: bamboo<br/>\nMain-Class: org.springframework.boot.loader.WarLauncher<br/>\nSpring-Boot-Classes: WEB-INF/classes/<br/>\n",
+    "version": null
+  },
+  {
+    "service_name": "punterpermissions",
+    "url": "http://punterpermissions-dk.ams.local:8080/status",
+    "status_page": "{\n  \"HEALTH\" : {\n    \"status\" : \"UP\",\n    \"components\" : {\n      \"configurationProcessor\" : {\n        \"status\" : \"UP\"\n      },\n      \"db\" : {\n        \"status\" : \"UP\",\n        \"details\" : {\n          \"database\" : \"PostgreSQL\",\n          \"validationQuery\" : \"isValid()\"\n        }\n      },\n      \"denyCodesDictionaryCache\" : {\n        \"status\" : \"UP\"\n      },\n      \"ping\" : {\n        \"status\" : \"UP\"\n      },\n      \"rabbit\" : {\n        \"status\" : \"UP\",\n        \"details\" : {\n          \"version\" : \"3.7.8\"\n        }\n      },\n      \"redis\" : {\n        \"status\" : \"UP\",\n        \"details\" : {\n          \"version\" : \"4.0.11\"\n        }\n      }\n    }\n  },\n  \"INFO\" : {\n    \"build\" : {\n      \"build-number\" : \"_635_\",\n      \"version\" : \"0.9.7\",\n      \"punter-permissions-api\" : \"0.9\",\n      \"artifact\" : \"punterpermissions\",\n      \"name\" : \"Punter Permissions Service\",\n      \"time\" : \"2020-12-23T09:41:35.810Z\",\n      \"group\" : \"com.panbet.service.punterpermissions\"\n    }\n  },\n  \"Link to UI: \" : \"http://punterpermissions1-dk.ams.local:8080\",\n  \"Link to metrics:\" : \"http://punterpermissions1-dk.ams.local:8080/metrics (usage: metrics/{put metric name here})\",\n  \"Uptime\" : \"1376 hrs\"\n}",
+    "version": "Info/build/version"
+  },
+  {
+    "service_name": "routing-service",
+    "url": "http://routing-service.dk.ams.local:8080/routing-service/status",
+    "status_page": "{\n  \"startTime\" : \"2021-01-27T07:41:21.826241Z\",\n  \"buildInfo\" : {\n    \"Bamboo-Build-Number\" : \"309\",\n    \"Implementation-Version\" : \"3.1.17\",\n    \"Bamboo-Build-Url\" : \"http://build.mara.local/browse/PAYSYS-TRANSACTIONROUTINGSERVICE-JOB1-309\",\n    \"Bamboo-Build-Timestamp\" : \"2021-01-20T15:50:59.875+03:00\",\n    \"Built-By\" : \"bamboo\",\n    \"Build-Jdk\" : \"11.0.6-panbet\"\n  },\n  \"versions\" : {\n    \"payment-system-starters\" : \"2.0.16\",\n    \"spring-boot\" : \"2.1.4.RELEASE\"\n  },\n  \"cluster\" : [ \"service-payment2-dk.ams.local\", \"service-payment1-dk.ams.local\" ]\n}",
+    "version": null
+  },
+  {
+    "service_name": "neteller-service",
+    "url": "http://neteller-service.dk.ams.local:8080/neteller-service/status",
+    "status_page": "{\n  \"startTime\" : \"2021-02-18T07:21:23.060793Z\",\n  \"buildInfo\" : {\n    \"Bamboo-Build-Number\" : \"51\",\n    \"Implementation-Version\" : \"1.1.8\",\n    \"Bamboo-Build-Url\" : \"http://build.mara.local/browse/PAYSYS-NETELLERSERVICE-JOB1-51\",\n    \"Bamboo-Build-Timestamp\" : \"2021-02-17T10:23:15.934+03:00\",\n    \"Built-By\" : \"bamboo\",\n    \"Build-Jdk\" : \"11.0.6-panbet\"\n  },\n  \"versions\" : {\n    \"payment-system-starters\" : \"2.0.19\"\n  }\n}",
+    "version": null
+  },
+  {
+    "service_name": "paysafecard-service",
+    "url": "http://paysafecard-service-dk.ams.local:8080/paysafecard-service/status",
+    "status_page": "{\n  \"startTime\" : \"2021-02-02T06:59:24.524659Z\",\n  \"buildInfo\" : {\n    \"Bamboo-Build-Number\" : \"18\",\n    \"Implementation-Version\" : \"1.6.1\",\n    \"Bamboo-Build-Url\" : \"http://build.mara.local/browse/PAYSYS-PAYSAFECARDSERVICE-JOB1-18\",\n    \"Bamboo-Build-Timestamp\" : \"2021-02-01T17:31:55.047+03:00\",\n    \"Built-By\" : \"bamboo\",\n    \"Build-Jdk\" : \"11.0.6-panbet\"\n  },\n  \"versions\" : {\n    \"payment-system-starters\" : \"2.0.18\"\n  }\n}",
+    "version": null
+  },
+  {
+    "service_name": "payment-availability-service",
+    "url": "http://payment-availability-service-dk.ams.local:8080/payment-availability-service/status",
+    "status_page": "{\n  \"startTime\" : \"2021-02-18T14:38:06.227362Z\",\n  \"buildInfo\" : {\n    \"Bamboo-Build-Number\" : \"216\",\n    \"Implementation-Version\" : \"1.43\",\n    \"Bamboo-Build-Url\" : \"http://build.mara.local/browse/PAYSYS-PAYMENTAVAILABILITYSERVICE-JOB1-216\",\n    \"Bamboo-Build-Timestamp\" : \"2021-02-08T14:54:34.564+03:00\",\n    \"Built-By\" : \"bamboo\",\n    \"Build-Jdk\" : \"11.0.6-panbet\"\n  },\n  \"versions\" : {\n    \"spring-boot\" : \"2.1.4.RELEASE\"\n  },\n  \"cluster\" : [ \"payment-availability-service2-dk.ams.local\", \"payment-availability-service1-dk.ams.local\" ]\n}",
+    "version": null
+  },
+  {
+    "service_name": "moneybookers-service",
+    "url": "http://moneybookers-service-dk.ams.local:8080/moneybookers-service/status",
+    "status_page": "{\n  \"startTime\" : \"2020-12-01T03:57:03.801793Z\",\n  \"buildInfo\" : {\n    \"Bamboo-Build-Number\" : \"17\",\n    \"Implementation-Version\" : \"1.0.5\",\n    \"Bamboo-Build-Url\" : \"http://build.mara.local/browse/PAYSYS-MONEYBOOKERSSERVICE-JOB1-17\",\n    \"Bamboo-Build-Timestamp\" : \"2020-03-30T12:59:26.914+03:00\",\n    \"Built-By\" : \"bamboo\",\n    \"Build-Jdk\" : \"11.0.2-panbet\"\n  },\n  \"versions\" : {\n    \"payment-system-starters\" : \"2.0.7\"\n  }\n}",
+    "version": null
+  },
+  {
+    "service_name": "dictaodenmarkreportservice",
+    "url": "http://dictaodenmarkreportservice-dk.ams.local:8080/status",
+    "status_page": "{\"Implementation-Version\":\"1.5\",\"Built date\":\"2020-10-04T19:13:43.504Z\",\"Server start time\":\"2020-12-10 22:44:31.976\",\"Server uptime\":\"PT1692H2M48.442S\",\"Service name\":\"31633@dictaodenmarkreportservice1-dk.ams.local\",\"Cluster status\":\"leader\"}",
+    "version": null
+  },
+  {
+    "service_name": "paint-shop-service",
+    "url": "http://paint-shop-service.dk.ams.local:8080/paint-shop-service/status",
+    "status_page": "{\n  \"startTime\" : \"2021-02-05T07:49:00.499343Z\",\n  \"buildInfo\" : {\n    \"Bamboo-Build-Number\" : \"76\",\n    \"Implementation-Version\" : \"1.20\",\n    \"Bamboo-Build-Url\" : \"http://build.mara.local/browse/PAYSYS-PAINTSHOPSERVICE-JOB1-76\",\n    \"Bamboo-Build-Timestamp\" : \"2020-09-10T10:02:36.211+03:00\",\n    \"Built-By\" : \"bamboo\",\n    \"Build-Jdk\" : \"11.0.6-panbet\"\n  },\n  \"versions\" : {\n    \"billing-api\" : \"2.0.6\",\n    \"spring-boot\" : \"2.1.4.RELEASE\"\n  }\n}",
+    "version": null
+  },
+  {
+    "service_name": "denmarkcompliance",
+    "url": "http://denmarkcompliance.dk.ams.local:8080/status",
+    "status_page": "{\n  \"build\" : {\n    \"built-by\" : \"bamboo\",\n    \"artifact\" : \"denmarkcompliance\",\n    \"denmark-compliance-api-version\" : \"1.2\",\n    \"java\" : {\n      \"target\" : \"1.8\",\n      \"source\" : \"1.8\"\n    },\n    \"group\" : \"com.panbet.service\",\n    \"encoding\" : {\n      \"reporting\" : \"UTF-8\",\n      \"source\" : \"UTF-8\"\n    },\n    \"version\" : \"1.2.0#30\",\n    \"name\" : \"denmarkcompliance\",\n    \"time\" : \"2019-07-08T16:03:12.417Z\",\n    \"created-by\" : \"Apache Maven 3.6.0\",\n    \"build-jdk\" : \"1.8\"\n  }\n}",
+    "version": null
+  },
+  {
+    "service_name": "incomeaccessservice",
+    "url": "http://incomeaccessservice.dk.ams.local:8080/status",
+    "status_page": "Build-Jdk-Spec: 1.8<br/>Created-By: Maven Archiver 3.4.0<br/>Implementation-Title: incomeaccessservice<br/>Implementation-Version: 1.3<br/>Main-Class: org.springframework.boot.loader.JarLauncher<br/>Manifest-Version: 1.0<br/>Spring-Boot-Classes: BOOT-INF/classes/<br/>Spring-Boot-Lib: BOOT-INF/lib/<br/>Spring-Boot-Version: 2.1.5.RELEASE<br/>Start-Class: com.panbet.incomeaccess.Application<br/>",
+    "version": null
+  },
+  {
+    "service_name": "ga360reportservice",
+    "url": "http://ga360reportservice-dk.ams.local:8080/ga360reportservice/status",
+    "status_page": "\"Server start time: 2021-01-20 03:38:55.504<br/>\\nServer uptime: PT727H8M27.345S<br/>\\nService name: 23266@ga360reportservice1-dk.ams.local<br/>\\nNode Status: node<br/>\\nImplementation-Title: GA360ReportService<br/>\\nBuilt-Date: 2021-01-19T16:10:45Z<br/>\\nBuild-Version: DEV<br/>\\nImplementation-Version: 1.5<br/>\\nManifest-Version: 1.0<br/>\\nCreated-By: Maven Archiver 3.4.0<br/>\\nBuild-Jdk-Spec: 11<br/>\\n\"",
+    "version": null
+  },
+  {
+    "service_name": "ows",
+    "url": "http://ows-dk.ams.local:8080/ows/status",
+    "status_page": "Implementation-Title: ows<br/>ows-api-version: 1.8.6<br/>Implementation-Version: 1.8.9#377<br/>Manifest-Version: 1.0<br/>Created-By: Maven Archiver 3.4.0<br/>Build-Jdk-Spec: 11<br/>Service name: 32113@ows1-dk.ams.local<br/>Uptime: 75 days, 09:21:14",
+    "version": null
+  },
+  {
+    "service_name": "gi-play-check",
+    "url": "http://gi-play-check-dk.ams.local:8080/status",
+    "status_page": "Build-Jdk-Spec: 11<br/>Built-Date: 2020-07-16 14:49:34<br/>Created-By: Maven Jar Plugin 3.2.0<br/>Implementation-Title: gi-play-check<br/>Implementation-Version: 1.12.0#4<br/>Main-Class: org.springframework.boot.loader.JarLauncher<br/>Manifest-Version: 1.0<br/>Specification-Version: 1.12.0<br/>Spring-Boot-Classes: BOOT-INF/classes/<br/>Spring-Boot-Lib: BOOT-INF/lib/<br/>Spring-Boot-Version: 2.2.6.RELEASE<br/>Start-Class: com.panbet.gi.App<br/>X-Compile-Source-JDK: 11<br/>X-Compile-Target-JDK: 11<br/>bamboo-build-branch: release-1.12.0<br/>bamboo-build-number: 4<br/>bamboo-build-timestamp: 2020-07-16T17:49:32.746+03:00<br/>bamboo-build-url: http://build.mara.local/browse/GI-GIPLAYCHECK15-JOB1-4<br/>gi-parent-pom-version: 1.14.0<br/>java-version: 11<br/>project-name: gi-play-check<br/>project-version: 1.12.0<br/>",
+    "version": null
+  },
+  {
+    "service_name": "gi-casino-server",
+    "url": "http://gi-casino-server-dk.ams.local:8080/status",
+    "status_page": "Branch-Name: release-3.3.2<br/>Build-Jdk-Spec: 11<br/>Built-Date: 2020-08-17T18:57:37Z<br/>Created-By: Maven Archiver 3.4.0<br/>Implementation-Date: 2020-08-17T21:57:35.132+03:00<br/>Implementation-Title: gi-casino-server<br/>Implementation-Version: 3<br/>Main-Class: org.springframework.boot.loader.JarLauncher<br/>Manifest-Version: 1.0<br/>Spring-Boot-Classes: BOOT-INF/classes/<br/>Spring-Boot-Lib: BOOT-INF/lib/<br/>Spring-Boot-Version: 2.1.5.RELEASE<br/>Start-Class: com.panbet.gi.casinoserver.GiCasinoServerApplication<br/>X-Compile-Source-JDK: 11<br/>X-Compile-Target-JDK: 11<br/>project-version: 3.3.2<br/>",
+    "version": null
+  },
+  {
+    "service_name": "gi-dictao-session",
+    "url": "http://gi-dictao-session-dk.ams.local:8080/status",
+    "status_page": "{\"build\":{\"built-by\":\"bamboo\",\"bamboo-build\":{\"timestamp\":\"2021-01-15T16:45:12.606+03:00\",\"url\":\"http://build.mara.local/browse/GI-GIDICTAOSESSION25-JOB1-3\",\"branch\":\"release-2.1.1\",\"number\":\"3\"},\"gi-parent-pom\":{\"version\":\"1.28.0\"},\"artifact\":\"gi-dictao-session\",\"group\":\"com.panbet.gi\",\"java-version\":\"11\",\"version\":\"2.1.1\",\"name\":\"gi-dictao-session\",\"time\":\"2021-01-15T13:45:14.310Z\"}}",
+    "version": "build/version"
+  },
+  {
+    "service_name": "gi-casino-punter-favorites",
+    "url": "http://gi-casino-punter-favorites-dk.ams.local:8080/status",
+    "status_page": "Build-Jdk-Spec: 11<br/>Built-Date: 2020-11-30 15:12:59<br/>Created-By: Maven Jar Plugin 3.2.0<br/>ITES4-JOB1-2: <br/>Implementation-Date: 2020-11-30T18:12:57.519+03:00<br/>Implementation-Title: gi-casino-punter-favourites<br/>Implementation-Version: 2<br/>Main-Class: org.springframework.boot.loader.JarLauncher<br/>Manifest-Version: 1.0<br/>Specification-Version: 1.10.0<br/>Spring-Boot-Classes: BOOT-INF/classes/<br/>Spring-Boot-Classpath-Index: BOOT-INF/classpath.idx<br/>Spring-Boot-Lib: BOOT-INF/lib/<br/>Spring-Boot-Version: 2.3.1.RELEASE<br/>Start-Class: com.panbet.gi.favourite.game.PunterFavoritesApplication<br/>X-Compile-Source-JDK: 11<br/>X-Compile-Target-JDK: 11<br/>bamboo-build-branch: release-1.10.0<br/>bamboo-build-number: 2<br/>bamboo-build-timestamp: 2020-11-30T18:12:57.519+03:00<br/>bamboo-build-url: http://build.mara.local/browse/GI-GICASINOPUNTERFAVOUR<br/>gi-common-data-version: 2.30.0<br/>gi-parent-pom-version: 1.26.0<br/>java-version: 11<br/>project-name: gi-casino-punter-favourites<br/>project-version: 1.10.0<br/>",
+    "version": null
+  },
+  {
+    "service_name": "gi-backoffice",
+    "url": "http://gi-backoffice-dk.ams.local:8080/status",
+    "status_page": "{\"build\":{\"built-by\":\"bamboo\",\"bamboo-build\":{\"timestamp\":\"2021-01-25T15:33:38.887+03:00\",\"url\":\"http://build.mara.local/browse/GI-GIBACKOFFICEWEB479-JOB1-21\",\"branch\":\"release-1.26.0\",\"number\":\"21\"},\"gi-parent-pom\":{\"version\":\"1.26.0\"},\"artifact\":\"gi-backoffice\",\"group\":\"com.panbet.gi.backoffice\",\"java-version\":\"11\",\"version\":\"1.26.0\",\"name\":\"gi-backoffice\",\"time\":\"2021-01-25T12:33:41.115Z\"}}",
+    "version": null
+  },
+  {
+    "service_name": "gi-backoffice-streaming",
+    "url": "http://gi-backoffice-streaming-dk.ams.local:8080/status",
+    "status_page": "Build-Jdk-Spec: 11<br/>Built-Date: 2020-10-27 14:26:21<br/>Created-By: Maven Jar Plugin 3.2.0<br/>G20-JOB1-2: <br/>Implementation-Title: gi-backoffice-streaming<br/>Implementation-Version: 1.7.0#2<br/>Main-Class: org.springframework.boot.loader.JarLauncher<br/>Manifest-Version: 1.0<br/>Specification-Version: 1.7.0<br/>Spring-Boot-Classes: BOOT-INF/classes/<br/>Spring-Boot-Lib: BOOT-INF/lib/<br/>Spring-Boot-Version: 2.2.6.RELEASE<br/>Start-Class: com.panbet.gi.backoffice.streaming.Bootstrap<br/>X-Compile-Source-JDK: 11<br/>X-Compile-Target-JDK: 11<br/>bamboo-build-branch: release-1.7.0<br/>bamboo-build-number: 2<br/>bamboo-build-timestamp: 2020-10-27T17:26:11.927+03:00<br/>bamboo-build-url: http://build.mara.local/browse/GI-GIBACKOFFICESTREAMIN<br/>gi-parent-pom-version: 1.13.0<br/>java-version: 11<br/>project-name: gi-backoffice-streaming<br/>project-version: 1.7.0<br/>",
+    "version": null
+  },
+  {
+    "service_name": "gi-casino-dictao-report-denmark",
+    "url": "http://gi-casino-dictao-report-denmark-dk.ams.local:8080/status",
+    "status_page": "{\"build\":{\"built-by\":\"bamboo\",\"bamboo-build\":{\"timestamp\":\"2021-02-10T16:34:40.327+03:00\",\"url\":\"http://build.mara.local/browse/GI-GICASINODICTAOREPORTDENMARK14-JOB1-8\",\"branch\":\"release-1.3.0\",\"number\":\"8\"},\"gi-parent-pom\":{\"version\":\"1.35.0\"},\"artifact\":\"gi-casino-dictao-report-denmark\",\"group\":\"com.panbet.gi\",\"java-version\":\"11\",\"version\":\"1.3.0\",\"name\":\"gi-casino-dictao-report-denmark\",\"time\":\"2021-02-10T13:34:42.086Z\"}}",
+    "version": null
+  },
+  {
+    "service_name": "event-tree-service",
+    "url": "http://event-tree-service-dk.ams.local:8080/status",
+    "status_page": "{\"event.tree\":{\"initialized\":true,\"size\":15489},\"startTime\":\"19.02.2021 16:43:40+0300\",\"uptime\":\"01:03:46.345\",\"buildVersion\":\"1.13\",\"activeProfiles\":[\"serv\",\"prod.dk\"],\"apiAndLibs\":{\"ChangesAPI\":\"3.0.0\",\"EventAPI\":\"1.105\",\"EventTree\":\"1.2\",\"EventTreeClient\":\"1.3\"},\"buildInfo\":{\"Build-Jdk\":\"11.0.6-panbet\",\"Built-By\":\"bamboo\",\"Created-By\":\"Apache Maven 3.6.0\",\"Implementation-Title\":\"PanbetWebEventTreeService\",\"Implementation-URL\":\"https://projects.spring.io/spring-boot/#/spring-boot-starter-parent/panbet-parent-pom/event-tree-service\",\"Implementation-Vendor-Id\":\"com.panbet.web\",\"Implementation-Version\":\"1.13\",\"Main-Class\":\"org.springframework.boot.loader.JarLauncher\",\"Manifest-Version\":\"1.0\",\"Spring-Boot-Classes\":\"BOOT-INF/classes/\",\"Spring-Boot-Lib\":\"BOOT-INF/lib/\",\"Spring-Boot-Version\":\"2.1.4.RELEASE\",\"Start-Class\":\"com.panbet.web.event.tree.service.boot.Application\",\"X-Compile-Kotlin-Version\":\"1.3.30\",\"X-Compile-Source-JDK\":\"1.8\",\"X-Compile-Target-JDK\":\"1.8\"},\"cluster\":{\"info\":\"hazelcast(version: 3.12, state: ACTIVE)\",\"localHost\":\"event-tree-service1-dk.ams.local\",\"leaderHost\":\"event-tree-service1-dk.ams.local\",\"isLeader\":true,\"nodes\":[{\"host\":\"event-tree-service2-dk.ams.local\",\"uuid\":\"15fb1cb8-c842-4d3c-91ad-fbbfd8d3d152\",\"isMe\":false,\"isLeader\":false,\"version\":\"3.12.10\"},{\"host\":\"event-tree-service1-dk.ams.local\",\"uuid\":\"0ce532a6-d087-43d1-b6c9-f1a6c8ccca4a\",\"isMe\":true,\"isLeader\":true,\"version\":\"3.12.10\"}]}}",
+    "version": null
+  },
+  {
+    "service_name": "trustly-service",
+    "url": "http://trustly-service.dk.ams.local:8080/trustly-service/status",
+    "status_page": "{\n  \"startTime\" : \"2021-02-04T07:04:37.148718Z\",\n  \"buildInfo\" : {\n    \"Bamboo-Build-Number\" : \"88\",\n    \"Implementation-Version\" : \"2.0.5\",\n    \"Bamboo-Build-Url\" : \"http://build.mara.local/browse/PAYSYS-TRUSTLYSERVICE-JOB1-88\",\n    \"Bamboo-Build-Timestamp\" : \"2021-02-03T17:25:29.683+03:00\",\n    \"Built-By\" : \"bamboo\",\n    \"Build-Jdk\" : \"11.0.6-panbet\"\n  },\n  \"versions\" : {\n    \"spring-boot\" : \"1.5.1.RELEASE\",\n    \"panbet-hessian\" : \"1.7\"\n  }\n}",
+    "version": null
+  },
+  {
+    "service_name": "payment-restriction-service",
+    "url": "http://payment-restriction-service-dk.ams.local:8080/payment-restriction-service/status",
+    "status_page": "<html><body><h1>503 Service Unavailable</h1>\nNo server is available to handle this request.\n</body></html>\n",
+    "version": null
+  },
+  {
+    "service_name": "paypal-service",
+    "url": "http://paypal-service.dk.ams.local:8080/paypal-service/status",
+    "status_page": "{\n  \"startTime\" : \"2021-01-27T07:02:43.458483Z\",\n  \"buildInfo\" : {\n    \"Bamboo-Build-Number\" : \"110\",\n    \"Implementation-Version\" : \"2.0.5\",\n    \"Bamboo-Build-Url\" : \"http://build.mara.local/browse/PAYSYS-PAYPALSERVICE-JOB1-110\",\n    \"Bamboo-Build-Timestamp\" : \"2021-01-20T15:38:33.941+03:00\",\n    \"Built-By\" : \"bamboo\",\n    \"Build-Jdk\" : \"11.0.6-panbet\"\n  },\n  \"versions\" : {\n    \"payment-system-starters\" : \"2.0.9\"\n  }\n}",
+    "version": null
+  },
+  {
+    "service_name": "bincard-service",
+    "url": "http://bincard-service-dk.ams.local:8080/bincard-service/status",
+    "status_page": "<html><body><h1>503 Service Unavailable</h1>\nNo server is available to handle this request.\n</body></html>\n",
+    "version": null
+  },
+  {
+    "service_name": "jeton-wallet-service",
+    "url": "http://jeton-wallet-service-dk.ams.local:8080/jeton-wallet-service/status",
+    "status_page": "{\n  \"startTime\" : \"2020-12-10T05:33:45.168633Z\",\n  \"buildInfo\" : {\n    \"Bamboo-Build-Number\" : \"30\",\n    \"Implementation-Version\" : \"1.3.1\",\n    \"Bamboo-Build-Url\" : \"http://build.mara.local/browse/PAYSYS-JETONWALLETSERVICE-JOB1-30\",\n    \"Bamboo-Build-Timestamp\" : \"2019-09-05T17:31:00.311+03:00\",\n    \"Built-By\" : \"bamboo\",\n    \"Build-Jdk\" : \"1.8.0_181-panbet_p5\"\n  },\n  \"versions\" : {\n    \"payment-system-starters\" : \"2.0.7\"\n  }\n}",
+    "version": null
+  },
+  {
+    "service_name": "externalbetting-report",
+    "url": "http://externalbetting-report-dk.ams.local:8080/status",
+    "status_page": "{\"build\":{\"built-by\":\"bamboo\",\"version\":\"0.1.4\",\"artifact\":\"externalbetting-report\",\"java\":{\"source\":\"11\",\"target\":\"11\"},\"name\":\"externalbettingreport\",\"time\":\"2019-11-04T05:19:49Z\",\"created-by\":\"Apache Maven 3.6.0\",\"build-version\":\"40\",\"group\":\"com.panbet.externalbet\"}}",
+    "version": null
+  },
+  {
+    "service_name": "punter-reporting",
+    "url": "http://punter-reporting-dk.ams.local:8080/status",
+    "status_page": "{\n  \"bonusDataSource.activeConnections\" : 0,\n  \"bonusDataSource.idleConnections\" : 5,\n  \"bonusDataSource.awaitingConnections\" : 0,\n  \"git.commit\" : \"0a3e21e\",\n  \"build.timestamp\" : \"2021-02-17 17:30:43\",\n  \"git.branch\" : \"release-1.1.1\",\n  \"build.number\" : \"506\",\n  \"project.name\" : \"punter-reporting\",\n  \"build.jdk\" : \"11.0.6-panbet\",\n  \"project.version\" : \"1.1.1\",\n  \"build.by\" : \"panbet\",\n  \"deployment\" : \"2021-02-18T02:47:54.098578Z\"\n}",
+    "version": null
+  },
+  {
+    "service_name": "externalbetting-history",
+    "url": "http://externalbetting-history-dk.ams.local:8080/status",
+    "status_page": "{\"build\":[\"java.util.LinkedHashMap\",{\"api-version\":\"0.16\",\"built-by\":\"bamboo\",\"artifact\":\"externalbetting-history\",\"java\":[\"java.util.LinkedHashMap\",{\"target\":\"11\",\"source\":\"11\"}],\"build-version\":\"577\",\"group\":\"com.panbet.externalbet\",\"version\":\"0.15.6\",\"name\":\"externalbetting-history\",\"time\":\"2021-02-12-09:55\",\"created-by\":\"Apache Maven 3.6.0\"}]}",
+    "version": null
+  },
+  {
+    "service_name": "gi-provider-microgaming",
+    "url": "http://gi-provider-microgaming-dk.ams.local:8080/status",
+    "status_page": "{\"build\":{\"built-by\":\"bamboo\",\"bamboo-build\":{\"timestamp\":\"2021-02-18T23:56:39.198+03:00\",\"url\":\"http://build.mara.local/browse/GI-GIPROVIDERMICROGAMING157-JOB1-3\",\"branch\":\"release-2.8.1\",\"number\":\"3\"},\"gi-parent-pom\":{\"version\":\"1.38.0\"},\"artifact\":\"gi-provider-microgaming\",\"group\":\"com.panbet.gi\",\"java-version\":\"11\",\"version\":\"2.8.1\",\"name\":\"gi-provider-microgaming\",\"time\":\"2021-02-18T20:56:41.090Z\"}}",
+    "version": null
+  },
+  {
+    "service_name": "mobile-microfronts",
+    "url": "http://mobile-microfronts-dk.ams.local:8080/status",
+    "status_page": "Active connections: 1 \nserver accepts handled requests\n 25393992 25393992 25394016 \nReading: 0 Writing: 1 Waiting: 0 \n",
+    "version": null
+  },
+  {
+    "service_name": "push-notification-service",
+    "url": "http://push-notification-service-dk.ams.local:8080/status",
+    "status_page": "{\n  \"hikari.awaiting\" : 0,\n  \"hikari.active\" : 0,\n  \"active.profiles\" : [ \"serv\", \"prod\", \"secure\" ],\n  \"java.version\" : \"11.0.6-panbet\",\n  \"build.branch\" : \"release-1.6.1\",\n  \"build.timestamp\" : \"2021-02-15 22:09:06\",\n  \"project.name\" : \"push-notification-service\",\n  \"project.version\" : \"1.6.1\",\n  \"heap.max\" : \"1019 MB\",\n  \"hikari.idle\" : 10,\n  \"com.panbet.api.push-notification.version\" : \"1.6\",\n  \"heap.free\" : \"577 MB\",\n  \"build.number\" : \"DEV\",\n  \"deployment.hostname\" : \"push-notification-service1-dk.ams.local\",\n  \"deployment.uptime\" : \"3 days 9 hours 37 minutes 7 seconds\",\n  \"deployment.timestamp\" : \"2021-02-16T05:10:25.274507Z\",\n  \"heap.size\" : \"1019 MB\",\n  \"status\" : \"OK\"\n}",
+    "version": null
+  },
+  {
+    "service_name": "punter-password-security-service",
+    "url": "http://punter-password-security-service-dk.ams.local:8080/status",
+    "status_page": "{\"build\":{\"X-Compile-Source-JDK\":\"11\",\"Built-Date\":\"2020-08-12 11:05:39\",\"Specification-Version\":\"1.0\",\"Implementation-Version\":\"1.0.1#DEV\",\"X-Compile-Target-JDK\":\"11\",\"version\":\"1.0.1\",\"artifact\":\"punter-password-security-service\",\"name\":\"punter-password-security-service\",\"time\":\"2020-08-12T11:05:39.918Z\",\"group\":\"com.panbet.service.punterpasswordsecurity\"}}",
+    "version": null
+  },
+  {
+    "service_name": "gi-casino-mobile-cms-front",
+    "url": "http://gi-casino-mobile-cms-front-dk.ams.local:8080/status",
+    "status_page": "{\"build\":{\"built-by\":\"bamboo\",\"bamboo-build\":{\"timestamp\":\"2021-02-03T20:23:21.148+03:00\",\"url\":\"http://build.mara.local/browse/GI-GICASINOMOBILECMSFRONT160-JOB1-2\",\"branch\":\"release-1.37.0\",\"number\":\"2\"},\"gi-parent-pom\":{\"version\":\"1.37.0\"},\"artifact\":\"gi-casino-mobile-cms-front\",\"group\":\"com.panbet.gi\",\"java-version\":\"11\",\"version\":\"1.37.0\",\"name\":\"GI Casino Mobile CMS Front\",\"time\":\"2021-02-03T17:23:23.908Z\"}}",
+    "version": null
+  },
+  {
+    "service_name": "gi-casino-mobile-gateway",
+    "url": "http://gi-casino-mobile-gateway-dk.ams.local:8080/status",
+    "status_page": "AY54-JOB1-3: <br/>Branch-Name: release-1.38.0<br/>Build-Jdk-Spec: 11<br/>Build-Results-Url: http://build.mara.local/browse/GI-GICASINOMOBILEGATEW<br/>Built-Date: 2021-01-21 14:14:40<br/>Created-By: Maven Jar Plugin 3.2.0<br/>Implementation-Title: gi-casino-mobile-gateway<br/>Implementation-Vendor: Pivotal Software, Inc.<br/>Implementation-Version: 3<br/>Main-Class: org.springframework.boot.loader.JarLauncher<br/>Manifest-Version: 1.0<br/>Specification-Version: 1.38.0<br/>Spring-Boot-Classes: BOOT-INF/classes/<br/>Spring-Boot-Classpath-Index: BOOT-INF/classpath.idx<br/>Spring-Boot-Lib: BOOT-INF/lib/<br/>Spring-Boot-Version: 2.3.1.RELEASE<br/>Start-Class: com.panbet.gi.casino.mobile.configuration.Application<br/>X-Compile-Source-JDK: 11<br/>X-Compile-Target-JDK: 11<br/>Y54-JOB1-3: <br/>bamboo-build-branch: release-1.38.0<br/>bamboo-build-number: 3<br/>bamboo-build-timestamp: 2021-01-21T17:14:38.127+03:00<br/>bamboo-build-url: http://build.mara.local/browse/GI-GICASINOMOBILEGATEWA<br/>externalbetting-api-version: 2.15<br/>gi-parent-pom-version: 1.38.0<br/>java-version: 11<br/>newrelic-version: 5.9.0<br/>panbet-auth-version: 1.51<br/>panbet-common-hessian-version: 1.27<br/>panbet-config-version: 1.20<br/>panbet-currency-version: 1.14<br/>panbet-dictionary-version: 1.47<br/>panbet-localize-util-version: 1.18.0<br/>panbet-localize-version: 1.46<br/>panbet-partner-version: 1.0.49<br/>panbet-punter-operation-version: 1.8<br/>panbet-punter-version: 1.226<br/>panbet-punterauth-version: 1.51<br/>panbet-services-version: 1.11<br/>project-name: gi-casino-mobile-gateway<br/>project-version: 1.38.0<br/>spring-cloud-version: Hoxton.RELEASE<br/>zookeeper-client-version: 3.4.13<br/>",
+    "version": null
+  },
+  {
+    "service_name": "gi-casino-mobile-server",
+    "url": "http://gi-casino-mobile-server-dk.ams.local:8080/status",
+    "status_page": "152-JOB1-2: <br/>Branch-Name: release-1.42.1<br/>Build-Jdk-Spec: 11<br/>Build-Results-Url: http://build.mara.local/browse/GI-GICASINOMOBILESERVE<br/>Built-Date: 2021-01-16 13:28:17<br/>Created-By: Maven Jar Plugin 3.2.0<br/>Implementation-Title: gi-casino-mobile-server<br/>Implementation-Version: 2<br/>Main-Class: org.springframework.boot.loader.JarLauncher<br/>Manifest-Version: 1.0<br/>R152-JOB1-2: <br/>Specification-Version: 1.42.1<br/>Spring-Boot-Classes: BOOT-INF/classes/<br/>Spring-Boot-Classpath-Index: BOOT-INF/classpath.idx<br/>Spring-Boot-Lib: BOOT-INF/lib/<br/>Spring-Boot-Version: 2.3.7.RELEASE<br/>Start-Class: com.panbet.gi.casino.server.mobile.Application<br/>X-Compile-Source-JDK: 11<br/>X-Compile-Target-JDK: 11<br/>bamboo-build-branch: release-1.42.1<br/>bamboo-build-number: 2<br/>bamboo-build-timestamp: 2021-01-16T16:28:14.663+03:00<br/>bamboo-build-url: http://build.mara.local/browse/GI-GICASINOMOBILESERVER<br/>built-by: bamboo<br/>commonbetting-version: 1.25<br/>gi-parent-pom-version: 1.42.1<br/>java-version: 11<br/>newrelic-version: 5.9.0<br/>panbet-config-version: <br/>panbet-dictionary-version: <br/>panbethessian-version: 1.27<br/>postgresql-version: 42.2.18<br/>project-name: gi-casino-mobile-server<br/>project-version: 1.42.1<br/>spring-cloud-version: Hoxton.RELEASE<br/>zookeeper-client-version: 3.4.13<br/>",
+    "version": null
+  },
+  {
+    "service_name": "punter-message",
+    "url": "http://punter-message-dk.ams.local:8080/punter-message/status",
+    "status_page": "{\n  \"hikari.awaiting\" : 0,\n  \"hikari.active\" : 0,\n  \"active.profiles\" : [ \"dev\", \"secure\", \"serv\" ],\n  \"java.version\" : \"11.0.6-panbet\",\n  \"build.branch\" : \"release-3.9.3\",\n  \"build.timestamp\" : \"2021-02-02 17:33:40\",\n  \"project.name\" : \"punter-message\",\n  \"project.version\" : \"3.9.3\",\n  \"hazelcast.members\" : [ \"[punter-message2-dk.ams.local]:5801@3.12.5\", \"[punter-message1-dk.ams.local]:5801@3.12.5\" ],\n  \"hazelcast.cluster-state\" : \"ACTIVE\",\n  \"uptime\" : \"16 days 7 hours 8 minutes 57 seconds\",\n  \"cluster.node.status\" : \"DEACTIVATED\",\n  \"hostname\" : \"punter-message1-dk.ams.local\",\n  \"heap.max\" : \"510 MB\",\n  \"hikari.idle\" : 5,\n  \"heap.free\" : \"160 MB\",\n  \"build.number\" : \"496\",\n  \"heap.size\" : \"510 MB\",\n  \"com.panbet.api.punter-message.version\" : \"3.12\",\n  \"status\" : \"OK\",\n  \"deployment\" : \"2021-02-03T07:38:37.292413Z\"\n}",
+    "version": "project.version"
+  },
+  {
+    "service_name": "punternotification",
+    "url": "http://punternotification-dk.ams.local:8080/status",
+    "status_page": "{\"build\":{\"X-Compile-Source-JDK\":\"1.8\",\"Built-Date\":\"2021-02-11 08:57:31\",\"Specification-Version\":\"1.6\",\"Implementation-Version\":\"1.6.9#2\",\"X-Compile-Target-JDK\":\"1.8\",\"version\":\"1.6.9\",\"artifact\":\"punternotification\",\"name\":\"punternotification\",\"time\":\"2021-02-11T08:57:31.559Z\",\"group\":\"com.panbet.service.punternotification\"}}",
+    "version": null
+  },
+  {
+    "service_name": "panbet-config-service",
+    "url": "http://panbet-config-service-dk.ams.local:8080/status",
+    "status_page": "{\"buildVersion\":\"2.1.0-1\",\"startTime\":\"11.12.2020 07:38:47+0300\",\"uptime\":6084529203}",
+    "version": "buildVersion"
+  },
+  {
+    "service_name": "paymentprovider",
+    "url": "http://paymentprovider-dk.ams.local:15080/status",
+    "status_page": "Status: OK <br />Version: 1.43 <br />Start time: 09/02/2021 21:38:24 <br />Uptime: 229:09:11.949 <br />GRPC Server Status: OK <br /> + GRPC ThreadPool Status: OK",
+    "version": null
+  },
+  {
+    "service_name": "panbet-isg-adapter",
+    "url": "http://panbet-isg-adapter-dk.ams.local:8580/panbet-isg-adapter/status",
+    "status_page": "{\n  \"startTime\" : \"2020-12-09T22:18:46.818695Z\",\n  \"buildInfo\" : {\n    \"Bamboo-Build-Number\" : \"52\",\n    \"Implementation-Version\" : \"2.1.1\",\n    \"Bamboo-Build-Url\" : \"http://build.mara.local/browse/PAYSYS-PANBETISGADAPTER-JOB1-52\",\n    \"Bamboo-Build-Timestamp\" : \"2020-11-19T15:20:51.054+03:00\",\n    \"Built-By\" : \"bamboo\",\n    \"Build-Jdk\" : \"11.0.6-panbet\"\n  },\n  \"versions\" : {\n    \"payment-system-starters\" : \"2.0.16\"\n  }\n}",
+    "version": null
+  },
+  {
+    "service_name": "ecopayz-service",
+    "url": "http://ecopayz-service.dk.ams.local:7280/ecopayz-service/status",
+    "status_page": "{\n  \"startTime\" : \"2020-12-10T06:27:39.271993Z\",\n  \"buildInfo\" : {\n    \"Bamboo-Build-Number\" : \"41\",\n    \"Implementation-Version\" : \"1.1.6\",\n    \"Bamboo-Build-Url\" : \"http://build.mara.local/browse/PAYSYS-ECOPAYZSERVICE-JOB1-41\",\n    \"Bamboo-Build-Timestamp\" : \"2020-09-25T09:07:11.597+03:00\",\n    \"Built-By\" : \"bamboo\",\n    \"Build-Jdk\" : \"11.0.6-panbet\"\n  },\n  \"versions\" : {\n    \"payment-system-starters\" : \"2.0.7\"\n  }\n}",
+    "version": null
+  },
+  {
+    "service_name": "uniweb-gate-service",
+    "url": "http://uniweb-gate-service-dk.ams.local:8182/status",
+    "status_page": "{\n  \"name\" : \"uniweb-gate-service\",\n  \"version\" : \"1.38\",\n  \"status\" : \"OK\",\n  \"build\" : {\n    \"buildTime\" : \"@build.time@\",\n    \"branchName\" : \"@branchName@\",\n    \"buildNumber\" : \"@buildNumber@\"\n  },\n  \"startTime\" : \"2021.02.04 01:15:18.186\",\n  \"uptime\" : 1330340190\n}",
+    "version": null
+  },
+  {
+    "service_name": "gi-casino",
+    "url": "http://gi-casino-dk.ams.local:8777/status",
+    "status_page": "{\"build\":{\"built-by\":\"bamboo\",\"bamboo-build\":{\"timestamp\":\"2021-02-17T17:18:09.103+03:00\",\"url\":\"http://build.mara.local/browse/GI-GICASINO406-JOB1-8\",\"branch\":\"release-2.34.0\",\"number\":\"8\"},\"gi-parent-pom\":{\"version\":\"2.34.0\"},\"artifact\":\"gi-casino\",\"group\":\"com.panbet.gi\",\"java-version\":\"11\",\"version\":\"2.34.0\",\"name\":\"gi-casino\",\"time\":\"2021-02-17T14:18:11.605Z\"}}",
+    "version": null
+  }
+]
